@@ -1,2 +1,2 @@
 # CRUD
-# http-req-mini-samples-project
+# http-req-mini-sample-projects
