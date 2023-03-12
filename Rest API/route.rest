@@ -1,0 +1,30 @@
+
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/640b3fdcc5554df48d61192f
+
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name":"Ahmet",
+    "subscribedToChannel": "Second"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/640b037135e91d99553ab9dc
+
+###
+PATCH http://localhost:3000/subscribers/640b3fdcc5554df48d61192f
+Content-Type: application/json
+
+{
+    "name":"husddddfgjgjhjhhjhjho",
+    "subscribedToChannel": "okhk"
+}
